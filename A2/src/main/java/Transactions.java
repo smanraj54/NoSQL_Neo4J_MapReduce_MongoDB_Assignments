@@ -70,7 +70,7 @@ public class Transactions {
 //            }
             try{
                 if(LogsGenerator.getInstance()!=null){
-                    LogsGenerator.getInstance().writeLogs("\n\n\n\n\t\t\t\t********Program Closed!!!!********\n\n");
+                    //LogsGenerator.getInstance().writeLogs("\n\n\n\n\t\t\t\t********Program Closed!!!!********\n\n");
                     LogsGenerator.getInstance().closeLogs();
                 }
             }

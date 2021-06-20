@@ -48,7 +48,7 @@ public class SemaphoreLock {
         }catch(Exception exception){
             exception.printStackTrace();
         }
-        semaphoreValue = semaphoreValue+1;
+        SemaphoreLock.semaphoreValue = SemaphoreLock.semaphoreValue+1;
         System.out.println("\n\n\n\n\t\t\t\t Semaphore Current Value =  "+ semaphoreValue + "\n\n\n\n");
     }
 }
