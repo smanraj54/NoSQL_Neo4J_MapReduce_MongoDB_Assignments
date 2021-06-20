@@ -8,7 +8,9 @@ import java.sql.Statement;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class TransactionQueries {
+import static java.lang.Thread.sleep;
+
+public class TransactionQueries implements Runnable {
     private String cityName = "";
     private String transactionName = "";
     private Connection remoteConnection = null;
@@ -25,25 +27,46 @@ public class TransactionQueries {
 
     }
 
-
+    @Override
     public void run() {
         try {
             executeTransactions();
         } catch (SQLException throwable) {
             throwable.printStackTrace();
+            try {
+                LogsGenerator.getInstance().writeLogs(throwable.toString());
+            } catch (IOException ioException) {
+                ioException.printStackTrace();
+            }
         } catch (IOException ioException) {
             ioException.printStackTrace();
+            try {
+                LogsGenerator.getInstance().writeLogs(ioException.toString());
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         }
     }
 
-    public void executeTransactions() throws SQLException, IOException {
+    private void executeTransactions() throws SQLException, IOException, InterruptedException {
 
         LogsGenerator.getInstance().writeLogs("\n\tTransaction: " + transactionName + " Has Started! ");
         //System.out.println("\n\n\n\t\t\tWait is Over!!!\n\n\n");
         Statement statement = remoteConnection.createStatement();
 
+        if(transactionName.equals("T3")){
+            sleep(500);
+        }
         readDataQuery(statement);
+        if(transactionName.equals("T2")){
+            sleep(500);
+        }
         updateDataQuery(statement);
+        if(transactionName.equals("T1")){
+            sleep(500);
+        }
         commit(statement);
 
     }

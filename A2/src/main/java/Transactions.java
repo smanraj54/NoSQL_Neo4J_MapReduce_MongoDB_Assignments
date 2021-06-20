@@ -16,17 +16,24 @@ public class Transactions {
             String password = "manu@1234";
             RemoteConnection remoteConnection = new RemoteConnection();
             int prefix = 1151;
+            Connection connections[] = {remoteConnection.getRemoteConnection(url, user, password),
+                    remoteConnection.getRemoteConnection(url, user, password),
+                    remoteConnection.getRemoteConnection(url, user, password)
+            };
 
 
-            TransactionQueries transaction1 = new TransactionQueries("T1", remoteConnection.getRemoteConnection(url, user, password), prefix);
-            transaction1.run();
 
-            TransactionQueries transaction2 = new TransactionQueries("T2", remoteConnection.getRemoteConnection(url, user, password), prefix);
-            transaction2.run();
+            TransactionQueries transaction1 = new TransactionQueries("T1", connections[0], prefix);
+            Thread t1 = new Thread(transaction1);
+            t1.start();
 
-            TransactionQueries transaction3 = new TransactionQueries("T3", remoteConnection.getRemoteConnection(url, user, password), prefix);
-            transaction3.run();
+            TransactionQueries transaction2 = new TransactionQueries("T2", connections[1], prefix);
+            Thread t2 = new Thread(transaction2);
+            t2.start();
 
+            TransactionQueries transaction3 = new TransactionQueries("T3", connections[2], prefix);
+            Thread t3 = new Thread(transaction3);
+            t3.start();
 
 
 
