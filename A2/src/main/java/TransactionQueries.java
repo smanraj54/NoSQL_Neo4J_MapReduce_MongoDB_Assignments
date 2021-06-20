@@ -52,6 +52,8 @@ public class TransactionQueries implements Runnable {
 
     private void executeTransactions() throws SQLException, IOException, InterruptedException {
 
+        LogsGenerator.getInstance().writeLogs("\n\tTransaction: " + transactionName + " is Received! ");
+        SemaphoreLock.getInstance().waitForSemaphore(transactionName);
         LogsGenerator.getInstance().writeLogs("\n\tTransaction: " + transactionName + " Has Started! ");
         //System.out.println("\n\n\n\t\t\tWait is Over!!!\n\n\n");
         Statement statement = remoteConnection.createStatement();
@@ -68,7 +70,7 @@ public class TransactionQueries implements Runnable {
             sleep(500);
         }
         commit(statement);
-
+        SemaphoreLock.getInstance().signalSemaphore(transactionName);
     }
 
     private void readDataQuery(Statement statement) throws SQLException, IOException {

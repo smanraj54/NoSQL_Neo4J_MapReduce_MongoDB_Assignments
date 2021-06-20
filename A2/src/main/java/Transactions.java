@@ -22,10 +22,10 @@ public class Transactions {
             };
 
 
-
             TransactionQueries transaction1 = new TransactionQueries("T1", connections[0], prefix);
             Thread t1 = new Thread(transaction1);
             t1.start();
+
 
             TransactionQueries transaction2 = new TransactionQueries("T2", connections[1], prefix);
             Thread t2 = new Thread(transaction2);
@@ -70,6 +70,7 @@ public class Transactions {
 //            }
             try{
                 if(LogsGenerator.getInstance()!=null){
+                    LogsGenerator.getInstance().writeLogs("\n\n\n\n\t\t\t\t********Program Closed!!!!********\n\n");
                     LogsGenerator.getInstance().closeLogs();
                 }
             }
