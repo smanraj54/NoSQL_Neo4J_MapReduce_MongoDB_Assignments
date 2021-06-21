@@ -20,7 +20,7 @@ public class SemaphoreLock {
         return semaphoreLock;
     }
 
-    public void waitForSemaphore(String transactionName) throws InterruptedException {
+    synchronized public void waitForSemaphore(String transactionName) throws InterruptedException {
         if(!queueList.containsKey(transactionName)){
             queueList.put(transactionName, (int) transactionName.charAt(1) - 48);
             System.out.println("\n\n\n\n\t\t\t\t"+ queueList.get(transactionName) + ".) "+ transactionName + "\n\t\t\t\t Semaphore Value:"+ queueList.get(transactionName)+"\n\n\n\n");
@@ -31,8 +31,8 @@ public class SemaphoreLock {
             exception.printStackTrace();
         }
         while (queueList.get(transactionName)!=semaphoreValue){
-            sleep(queueList.get(transactionName)*900);
-            semaphoreValue = queueList.get(transactionName);
+
+            wait();
             if(queueList.get(transactionName)==semaphoreValue) break;
         }
         try {
@@ -42,9 +42,11 @@ public class SemaphoreLock {
         }
         System.out.println("\n\n\nWait is Over!!!");
     }
-    public void signalSemaphore(String transactionName){
+    synchronized public void signalSemaphore(String transactionName){
         try {
+            notifyAll();
             LogsGenerator.getInstance().writeLogs("\n\tTransaction: " + transactionName + " Has UnLOCKED Table!!! ");
+
         }catch(Exception exception){
             exception.printStackTrace();
         }

@@ -50,7 +50,7 @@ public class TransactionQueries implements Runnable {
         }
     }
 
-    private void executeTransactions() throws SQLException, IOException, InterruptedException {
+     private void executeTransactions() throws SQLException, IOException, InterruptedException {
 
         LogsGenerator.getInstance().writeLogs("\n\tTransaction: " + transactionName + " is Received! ");
         SemaphoreLock.getInstance().waitForSemaphore(transactionName);

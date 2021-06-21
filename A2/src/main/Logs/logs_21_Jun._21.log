@@ -1,0 +1,88 @@
+
+
+
+
+				********NEW Program********
+
+
+	Remote Database Connection successful
+
+
+	Remote Database Connection successful
+
+
+	Remote Database Connection successful
+
+
+	Transaction: T1 Received!
+	Transaction: T2 Received!
+	Transaction: T3 Received!
+	Transaction: T1 is Received! 
+
+
+				********Logger Closed**********
+	Transaction: T3 is Received! 
+	Transaction: T2 is Received! 
+
+	Transaction: T1 is WAITING for the Table access!!! 
+	Transaction: T1 Has LOCKED Table!!! 
+	Transaction: T1 Has Started! 
+
+	Transaction: T2 is WAITING for the Table access!!! 
+
+	Transaction: T3 is WAITING for the Table access!!! 
+
+	Transaction: T1 Is Reading from table!
+	Read Query is: Select * from customers where customer_zip_code_prefix =  1151
+	Data Fetched from Transaction: T1 given below: 
+			customer ID      =       8c55956d70fca64193668429b9f8d8ce
+			customer_unique_id        =       61a7c7a2d1ee1715b63e0d22a1129fc5
+			customer_zip_code_prefix      =       1151
+			customer City      =       T3 City
+			customer State      =       SP
+
+	Transaction: T1 Is Updating the table! 
+	Read Query is: UPDATE customers SET customer_city = 'T1 City' WHERE customer_zip_code_prefix =  1151
+		Transaction: T1 Updated The Table Value! 
+
+	Transaction: T1 is Committing! 
+	Transaction: T1 Is Committed! 
+	Transaction: T1 Has UnLOCKED Table!!! 
+	Transaction: T2 Has LOCKED Table!!! 
+	Transaction: T2 Has Started! 
+
+	Transaction: T2 Is Reading from table!
+	Read Query is: Select * from customers where customer_zip_code_prefix =  1151
+	Data Fetched from Transaction: T2 given below: 
+			customer ID      =       8c55956d70fca64193668429b9f8d8ce
+			customer_unique_id        =       61a7c7a2d1ee1715b63e0d22a1129fc5
+			customer_zip_code_prefix      =       1151
+			customer City      =       T1 City
+			customer State      =       SP
+
+	Transaction: T2 Is Updating the table! 
+	Read Query is: UPDATE customers SET customer_city = 'T2 City' WHERE customer_zip_code_prefix =  1151
+		Transaction: T2 Updated The Table Value! 
+
+	Transaction: T2 is Committing! 
+	Transaction: T2 Is Committed! 
+	Transaction: T2 Has UnLOCKED Table!!! 
+	Transaction: T3 Has LOCKED Table!!! 
+	Transaction: T3 Has Started! 
+
+	Transaction: T3 Is Reading from table!
+	Read Query is: Select * from customers where customer_zip_code_prefix =  1151
+	Data Fetched from Transaction: T3 given below: 
+			customer ID      =       8c55956d70fca64193668429b9f8d8ce
+			customer_unique_id        =       61a7c7a2d1ee1715b63e0d22a1129fc5
+			customer_zip_code_prefix      =       1151
+			customer City      =       T2 City
+			customer State      =       SP
+
+	Transaction: T3 Is Updating the table! 
+	Read Query is: UPDATE customers SET customer_city = 'T3 City' WHERE customer_zip_code_prefix =  1151
+		Transaction: T3 Updated The Table Value! 
+
+	Transaction: T3 is Committing! 
+	Transaction: T3 Is Committed! 
+	Transaction: T3 Has UnLOCKED Table!!! 
