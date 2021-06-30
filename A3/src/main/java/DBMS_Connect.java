@@ -1,19 +1,18 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.sql.*;
 
 public class DBMS_Connect {
 
+
     public static void main (String[] args) {
-//        Transactions transactions = new Transactions();
-//        transactions.RunTransactions();
 
-
-
-//        Testing1 testing1 = new Testing1("adfbvfdbsfds");
-//        Thread t1 = new Thread(testing1);
-//        t1.start();
-//        Testing1 testing2 = new Testing1("Some Thing Sensible !!!!!!!!!!!!!!!!!!!!!!!!!");
-//        Thread t2 = new Thread(testing2);
-//        t2.start();
-
+        String URL = "https://newsapi.org/v2/everything?q=<KeywordName>&sortBy=popularity&apiKey=6e7ddac0bd2e44ec82aa90073f939e16&language=en&pageSize=5";
+        URL = URL.replace("<KeywordName>","Dalhousie");
+        new FetchAPI(URL);
     }
 }

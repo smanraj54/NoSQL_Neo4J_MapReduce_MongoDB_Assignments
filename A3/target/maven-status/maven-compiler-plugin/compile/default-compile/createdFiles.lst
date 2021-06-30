@@ -1,1 +1,7 @@
+LogsGenerator.class
 DBMS_Connect.class
+TransactionQueries.class
+Transactions.class
+Testing1.class
+SemaphoreLock.class
+RemoteConnection.class
