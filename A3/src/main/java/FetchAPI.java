@@ -9,15 +9,15 @@ public class FetchAPI {
 
     private static HttpURLConnection connection = null;
 
-    public FetchAPI(String URL){
+    public String fetchAPI(String urlValue){
         BufferedReader bufferedReader;
-        String line;
+        String line = null;
         StringBuffer stringBuffer = new StringBuffer();
         java.net.URL url = null;
         try {
 
 
-            url = new URL("https://newsapi.org/v2/everything?q=Dalhousie&sortBy=popularity&apiKey=6e7ddac0bd2e44ec82aa90073f939e16");
+            url = new URL(urlValue);
             connection = (HttpURLConnection) url.openConnection();
             connection.setRequestMethod("GET");
             connection.setConnectTimeout(5000);
@@ -36,8 +36,8 @@ public class FetchAPI {
                 stringBuffer.append(line);
             }
             bufferedReader.close();
-            System.out.println(stringBuffer.toString());
-
+            //System.out.println(stringBuffer.toString());
+            line = stringBuffer.toString();
             //System.out.println(status);
         } catch (MalformedURLException e) {
             e.printStackTrace();
@@ -47,5 +47,6 @@ public class FetchAPI {
         finally{
             connection.disconnect();
         }
+        return line;
     }
 }
