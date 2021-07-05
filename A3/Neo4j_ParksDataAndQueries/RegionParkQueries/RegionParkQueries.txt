@@ -1,0 +1,82 @@
+CREATE (R1:Region {name: 'Eastern Shore '})
+CREATE (P1:Park {name: 'Black Duck Cove', region: 'Eastern Shore '})
+CREATE (P2:Park {name: 'Boylston', region: 'Eastern Shore '})
+CREATE (P3:Park {name: 'Clam Harbour Beach', region: 'Eastern Shore '})
+CREATE (P4:Park {name: 'Cole Harbour Heritage Park', region: 'Eastern Shore '})
+CREATE (P5:Park {name: 'Dollar Lake', region: 'Eastern Shore '})
+
+
+CREATE (R2:Region {name: 'Halifax Region'})
+CREATE (P6:Park {name: 'Crystal Crescent Beach', region: 'Halifax Region'})
+CREATE (P7:Park {name: 'Jerry Lawrence', region: 'Halifax Region'})
+CREATE (P8:Park {name: 'Laurie', region: 'Halifax Region'})
+CREATE (P9:Park {name: 'Long Lake', region: 'Halifax Region'})
+CREATE (P10:Park {name: 'MacCormacks Beach', region: 'Halifax Region'})
+CREATE (P11:Park {name: 'McNabs and Lawlor Islands', region: 'Halifax Region'})
+CREATE (P12:Park {name: 'Oakfield', region: 'Halifax Region'})
+CREATE (P13:Park {name: 'Sackville Lakes', region: 'Halifax Region'})
+
+
+CREATE (R3:Region {name: 'Northumberland Shore '})
+CREATE (P14:Park {name: 'Amherst Shore', region: 'Northumberland Shore '})
+CREATE (P15:Park {name: 'Arisaig', region: 'Northumberland Shore '})
+CREATE (P16:Park {name: 'Balmoral Mills', region: 'Northumberland Shore '})
+CREATE (P17:Park {name: 'Bayfield Beach', region: 'Northumberland Shore '})
+CREATE (P18:Park {name: 'Beaver Mountain', region: 'Northumberland Shore '})
+CREATE (P19:Park {name: 'Blue Sea Beach', region: 'Northumberland Shore '})
+CREATE (P20:Park {name: 'Caribou-Munroes Island', region: 'Northumberland Shore '})
+CREATE (P21:Park {name: 'Fox Harbour', region: 'Northumberland Shore '})
+
+
+CREATE (R4:Region {name: 'Cape Breton Island '})
+CREATE (P22:Park {name: 'Barrachois', region: 'Cape Breton Island '})
+CREATE (P23:Park {name: 'Battery', region: 'Cape Breton Island '})
+CREATE (P24:Park {name: 'Ben Eoin', region: 'Cape Breton Island '})
+CREATE (P25:Park {name: 'Burnt Island', region: 'Cape Breton Island '})
+CREATE (P26:Park {name: 'Cabots Landing', region: 'Cape Breton Island '})
+CREATE (P27:Park {name: 'Cape Smokey', region: 'Cape Breton Island '})
+CREATE (P28:Park {name: 'Dalem Lake', region: 'Cape Breton Island '})
+CREATE (P29:Park {name: 'Dominion Beach', region: 'Cape Breton Island '})
+CREATE (P30:Park {name: 'Dundee', region: 'Cape Breton Island '})
+CREATE (P31:Park {name: 'Groves Point', region: 'Cape Breton Island '})
+CREATE (P32:Park {name: 'Irish Cove', region: 'Cape Breton Island '})
+CREATE (P33:Park {name: 'Lake O Law', region: 'Cape Breton Island '})
+
+
+CREATE (R5:Region {name: 'Fundy Shore and Annapolis Valley'})
+CREATE (P34:Park {name: 'Annapolis Basin Look Off', region: 'Fundy Shore and Annapolis Valley'})
+CREATE (P35:Park {name: 'Anthony', region: 'Fundy Shore and Annapolis Valley'})
+CREATE (P36:Park {name: 'Bell', region: 'Fundy Shore and Annapolis Valley'})
+CREATE (P37:Park {name: 'Blomidon', region: 'Fundy Shore and Annapolis Valley'})
+CREATE (P38:Park {name: 'Blomidon Lookoff', region: 'Fundy Shore and Annapolis Valley'})
+CREATE (P39:Park {name: 'Caddell Rapids Lookoff', region: 'Fundy Shore and Annapolis Valley'})
+
+
+CREATE (R6:Region {name: 'South Shore'})
+CREATE (P40:Park {name: 'Bayswater Beach', region: 'South Shore'})
+CREATE (P41:Park {name: 'Camerons Brook', region: 'South Shore'})
+CREATE (P42:Park {name: 'Card Lake', region: 'South Shore'})
+CREATE (P43:Park {name: 'Cleveland Beach', region: 'South Shore'})
+CREATE (P44:Park {name: 'Cookville', region: 'South Shore'})
+CREATE (P45:Park {name: 'East River', region: 'South Shore'})
+
+
+CREATE (R7:Region {name: 'Yarmouth and Acadian Shores '})
+CREATE (P46:Park {name: 'Ellenwood Lake', region: 'Yarmouth and Acadian Shores '})
+CREATE (P47:Park {name: 'Glenwood', region: 'Yarmouth and Acadian Shores '})
+CREATE (P48:Park {name: 'Mavillette Beach', region: 'Yarmouth and Acadian Shores '})
+CREATE (P49:Park {name: 'Port Maitland Beach', region: 'Yarmouth and Acadian Shores '})
+CREATE (P50:Park {name: 'Smugglers Cove', region: 'Yarmouth and Acadian Shores '})
+
+
+match(p:Park), (r:Region) where p.region=r.name create (p) - [:inside] -> (r)
+
+match(p:Park), (r:Region) where p.region=r.name create (r) - [:contains] -> (p)
+
+match (r1:Region), (r2:Region) where r1.name <> r2.name create (r1) - [:internal] -> (r2)
+
+match (r: Region)
+with (r), Size( (r) - [:contains] -> ()) as total_Connections
+order by total_Connections DESC
+return r.name, total_Connections
+
