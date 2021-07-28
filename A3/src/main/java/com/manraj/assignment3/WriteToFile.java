@@ -126,7 +126,7 @@ public class WriteToFile {
         instance = null;
     }
 
-    private void closeWriters(){
+    public void closeWriters(){
         try {
             if(!fileClosed){
                 writeArticleToFile("\n]\n}", false);
