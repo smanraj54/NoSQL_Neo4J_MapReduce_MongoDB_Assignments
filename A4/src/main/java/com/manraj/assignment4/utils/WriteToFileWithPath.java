@@ -1,4 +1,4 @@
-package com.manraj.assignment4;
+package com.manraj.assignment4.utils;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -14,25 +14,31 @@ public class WriteToFileWithPath {
     private FileWriter fileWriter = null;
     private BufferedWriter bufferedWriter = null;
 
-    private WriteToFileWithPath(String path, String data){
-        File file = new File(path);
-        try {
-            Path path1 = Paths.get("./Output/Assignment4/");
-            Files.createDirectories(path1);
+    private WriteToFileWithPath(){
 
-            fileWriter = new FileWriter(file, true);
-            bufferedWriter = new BufferedWriter(fileWriter);
-            bufferedWriter.write(data);
-            close();
+        try {
+            Path path1 = Paths.get("./Output/Assignment4/Problem2/");
+            Files.createDirectories(path1);
+            Path path2 = Paths.get("./Output/Assignment4/Problem3/");
+            Files.createDirectories(path1);
+            Files.createDirectories(path2);
 
         } catch (IOException ioException) {
             ioException.printStackTrace();
         }
     }
 
-    public WriteToFileWithPath getInstance(String path, String data){
+    public void write(String path, String data) throws IOException {
+        File file = new File(path);
+        fileWriter = new FileWriter(file, true);
+        bufferedWriter = new BufferedWriter(fileWriter);
+        bufferedWriter.write(data);
+        bufferedWriter.flush();
+    }
+
+    public static WriteToFileWithPath getInstance(){
         if(instance == null){
-            instance = new WriteToFileWithPath(path, data);
+            instance = new WriteToFileWithPath();
         }
         return instance;
     }

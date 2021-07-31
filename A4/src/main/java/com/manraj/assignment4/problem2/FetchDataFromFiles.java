@@ -1,7 +1,6 @@
-package com.manraj.assignment4;
+package com.manraj.assignment4.problem2;
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.HashSet;

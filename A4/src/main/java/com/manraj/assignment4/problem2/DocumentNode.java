@@ -1,4 +1,4 @@
-package com.manraj.assignment4;
+package com.manraj.assignment4.problem2;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -9,6 +9,7 @@ public class DocumentNode {
     private int articleNumber = 0;
     private String content = null;
     private int polarityNumber = 0;
+
     private String polarityStatus = null;
     private String match = null;
 
@@ -47,6 +48,35 @@ public class DocumentNode {
         }
 
     }
+
+    public int getArticleNumber() {
+        return articleNumber;
+    }
+
+    public String getContent() {
+        return content;
+    }
+
+    public int getPolarityNumber() {
+        return polarityNumber;
+    }
+
+    public String getPolarityStatus() {
+        return polarityStatus;
+    }
+
+    public String getMatch() {
+        return match;
+    }
+
+    public static List<DocumentNode> getArticles() {
+        return articles;
+    }
+
+    public static int getArticleCounter() {
+        return articleCounter;
+    }
+
 
 
 }

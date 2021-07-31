@@ -1,12 +1,12 @@
-package com.manraj.assignment4;
+package com.manraj.assignment4.utils;
 
 import java.io.File;
 
 public class DeleteExistingFiles {
 
-    public DeleteExistingFiles()
+    public DeleteExistingFiles(String path)
     {
-        recursiveDelete(new File("./Output/Assignment4/"));
+        recursiveDelete(new File(path));
         //recursiveDelete(new File(""));
     }
 
