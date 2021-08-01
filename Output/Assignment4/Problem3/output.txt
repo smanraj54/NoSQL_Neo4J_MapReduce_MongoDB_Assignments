@@ -636,3 +636,8 @@ ARTICLE#626						 || 			102		 || 			0
 ARTICLE#627						 || 			111		 || 			0
 ARTICLE#628						 || 			105		 || 			0
 ARTICLE#629						 || 			90		 || 			0
+
+
+
+Highest Frequency Article with frequency 'f/m' =0.07407407407407407 :
+		Document{{_id=610233b10d39dd122a67546a, title=AurlieRivard leads Canadas swimming contingent at Tokyo 2020 Paralympic Games, content=Canada will have 19 swimmers hitting the starting blocksat the Tokyo 2020 Paralympic Games.rnOn Thursday, The Canadian Paralympic Committeeand Swimming Canada announced Canadas roster for theTok }}

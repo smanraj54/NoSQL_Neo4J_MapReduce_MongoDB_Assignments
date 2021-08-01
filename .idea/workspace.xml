@@ -4,143 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95e0a87b-7380-4963-9308-f57dbb6c6a2d" name="Default Changelist" comment="Assignment4 problem 2 complete">
-      <change afterPath="$PROJECT_DIR$/A4/src/main/java/com/manraj/assignment4/problem2/PrintToConsole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A4/src/main/java/com/manraj/assignment4/problem2/WriteOutputToFIle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A4/src/main/java/com/manraj/assignment4/problem3/Assignment4_P3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A4/src/main/java/com/manraj/assignment4/problem3/FrequencyNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A4/src/main/java/com/manraj/assignment4/problem3/PrintToConsole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A4/src/main/java/com/manraj/assignment4/problem3/WriteOutputToFIle.java" afterDir="false" />
+    <list default="true" id="95e0a87b-7380-4963-9308-f57dbb6c6a2d" name="Default Changelist" comment="Assignment4 printed outputs in output.txt">
+      <change afterPath="$PROJECT_DIR$/A4/src/main/java/com/manraj/assignment4/problem3/HighestFrequencyArticle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A4/src/main/java/com/manraj/assignment4/Assignment4.java" beforeDir="false" afterPath="$PROJECT_DIR$/A4/src/main/java/com/manraj/assignment4/problem2/Assignment4_P2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A4/src/main/java/com/manraj/assignment4/DeleteExistingFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/A4/src/main/java/com/manraj/assignment4/utils/DeleteExistingFiles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A4/src/main/java/com/manraj/assignment4/DocumentNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/A4/src/main/java/com/manraj/assignment4/problem2/DocumentNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A4/src/main/java/com/manraj/assignment4/FetchDataFromFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/A4/src/main/java/com/manraj/assignment4/problem2/FetchDataFromFiles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A4/src/main/java/com/manraj/assignment4/MongoDBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/A4/src/main/java/com/manraj/assignment4/utils/MongoDBConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A4/src/main/java/com/manraj/assignment4/WriteToFileWithPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/A4/src/main/java/com/manraj/assignment4/utils/WriteToFileWithPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A4/target/A4-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/A4/target/A4-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A4/target/classes/com/manraj/assignment4/Assignment4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A4/target/classes/com/manraj/assignment4/DeleteExistingFiles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A4/target/classes/com/manraj/assignment4/DocumentNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A4/target/classes/com/manraj/assignment4/FetchDataFromFiles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A4/target/classes/com/manraj/assignment4/MongoDBConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A4/target/classes/com/manraj/assignment4/WriteToFileWithPath.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A4/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/A4/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A4/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/A4/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A4/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/A4/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/MapReduceCount/Keywords_Count.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/MapReduceCount/Keywords_Count.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/MongoArticlesProcessed/MongoArticlesProcessed.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/MongoArticlesProcessed/MongoArticlesProcessed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_100_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_100_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_101_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_101_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_102_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_102_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_103_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_103_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_104_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_104_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_106_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_106_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_107_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_107_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_108_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_108_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_109_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_109_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_110_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_110_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_111_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_111_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_112_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_112_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_113_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_113_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_114_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_114_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_115_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_115_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_116_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_116_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_117_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_117_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_118_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_118_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_119_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_119_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_120_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_120_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_121_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_121_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_122_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_122_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_123_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_123_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_124_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_124_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_125_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_125_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_14_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_14_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_15_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_15_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_16_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_16_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_17_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_17_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_19_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_19_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_20_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_20_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_21_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_21_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_22_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_22_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_23_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_23_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_24_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_24_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_25_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_25_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_27_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_27_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_28_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_28_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_29_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_29_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_2_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_2_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_30_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_30_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_32_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_32_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_33_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_33_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_34_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_34_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_35_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_35_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_36_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_36_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_37_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_37_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_38_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_38_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_39_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_39_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_3_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_3_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_40_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_40_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_41_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_41_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_42_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_42_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_43_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_43_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_44_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_44_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_45_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_45_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_46_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_46_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_47_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_47_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_48_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_48_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_49_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_49_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_4_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_4_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_50_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_50_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_51_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_51_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_52_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_52_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_53_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_53_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_55_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_55_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_56_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_56_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_57_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_57_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_58_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_58_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_59_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_59_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_5_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_5_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_60_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_60_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_61_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_61_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_62_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_62_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_63_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_63_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_64_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_64_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_65_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_65_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_66_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_66_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_67_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_67_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_68_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_68_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_69_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_69_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_6_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_6_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_70_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_70_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_71_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_71_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_72_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_72_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_73_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_73_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_74_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_74_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_75_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_75_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_76_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_76_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_77_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_77_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_78_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_78_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_79_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_79_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_7_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_7_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_80_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_80_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_81_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_81_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_82_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_82_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_83_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_83_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_84_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_84_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_85_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_85_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_88_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_88_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_89_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_89_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_8_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_8_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_90_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_90_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_91_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_91_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_92_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_92_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_93_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_93_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_96_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_96_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_97_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_97_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_98_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_98_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_99_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_99_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_9_.json" beforeDir="false" afterPath="$PROJECT_DIR$/Output/RawArticlesData/RawArticlesData_9_.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A3/target/classes/com/manraj/assignment3/MongoDBConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/A3/target/classes/com/manraj/assignment3/MongoDBConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A4/src/main/java/com/manraj/assignment4/problem3/Assignment4_P3.java" beforeDir="false" afterPath="$PROJECT_DIR$/A4/src/main/java/com/manraj/assignment4/problem3/Assignment4_P3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A4/src/main/java/com/manraj/assignment4/problem3/FrequencyNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/A4/src/main/java/com/manraj/assignment4/problem3/FrequencyNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A4/target/classes/com/manraj/assignment4/problem3/Assignment4_P3.class" beforeDir="false" afterPath="$PROJECT_DIR$/A4/target/classes/com/manraj/assignment4/problem3/Assignment4_P3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A4/target/classes/com/manraj/assignment4/problem3/FrequencyNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/A4/target/classes/com/manraj/assignment4/problem3/FrequencyNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/Assignment4/Problem3/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Output/Assignment4/Problem3/output.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,6 +52,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -198,7 +71,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Assignment4_P2">
+  <component name="RunManager" selected="Application.Assignment4_P3">
     <configuration name="Assignment3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.manraj.assignment3.Assignment3" />
       <module name="DB_Connection" />
@@ -253,8 +126,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Assignment4_P2" />
         <item itemvalue="Application.Assignment4_P3" />
+        <item itemvalue="Application.Assignment4_P2" />
         <item itemvalue="Application.Assignment3" />
       </list>
     </recent_temporary>
@@ -270,7 +143,7 @@
       <workItem from="1627498815451" duration="1003000" />
       <workItem from="1627499953832" duration="1118000" />
       <workItem from="1627504602686" duration="22110000" />
-      <workItem from="1627732068392" duration="13356000" />
+      <workItem from="1627732068392" duration="19258000" />
     </task>
     <task id="LOCAL-00001" summary="added git ignore file">
       <created>1627499652755</created>
@@ -286,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627561534814</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Assignment4 printed outputs in output.txt">
+      <created>1627753161508</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1627753161509</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,7 +187,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added git ignore file" />
     <MESSAGE value="Assignment4 problem 2 complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assignment4 problem 2 complete" />
+    <MESSAGE value="Assignment4 printed outputs in output.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assignment4 printed outputs in output.txt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -324,7 +205,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/A4/src/main/java/com/manraj/assignment4/problem3/Assignment4_P3.java</url>
-          <line>38</line>
+          <line>39</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>

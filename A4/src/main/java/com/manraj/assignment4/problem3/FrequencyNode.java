@@ -1,5 +1,7 @@
 package com.manraj.assignment4.problem3;
 
+import org.bson.Document;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -14,10 +16,12 @@ public class FrequencyNode {
     public int canadaCountPerArticle = 0;
     public int articleWordCount = 0;
 
+    public Document document = null;
+
     private static List<FrequencyNode> articles = new ArrayList<>();
 
-    public FrequencyNode(String article){
-        //this.totalArticles = totalArticles;
+    public FrequencyNode(String article, Document document){
+        this.document = document;
 
         if(processArticle(article, "canada")){
             canadaCount++;

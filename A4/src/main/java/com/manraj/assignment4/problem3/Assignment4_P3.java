@@ -22,7 +22,7 @@ public class Assignment4_P3 {
             t++;
             Object object =  it.next();
             Document document = (Document)object;
-            new FrequencyNode((String) document.get("content"));
+            new FrequencyNode((String) document.get("content"), document);
             //articles.add();
             //System.out.println(++t+": "+document.get("content"));
         }
@@ -36,6 +36,7 @@ public class Assignment4_P3 {
         } catch (IOException ioException) {
             ioException.printStackTrace();
         }
+        HighestFrequencyArticle.printHighestFreqArticle(articles);
         MongoDBConnection.getInstance().close();
         //System.out.println("hello World");
 
